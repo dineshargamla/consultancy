@@ -1,3 +1,25 @@
 <app-nab-bar />
-<app-home/>
+@switch(selectedPage) {
+    @case('home') {
+        <app-home/>
+    }
+    @case('contact') {
+        <app-contact/>
+    }
+    @case('immigration') {
+        <app-immigration/>
+    }
+    @case('study') {
+        <app-study/>
+    }
+    @case('vise') {
+        <app-visa/>
+    }
+    @case('about') {
+        <app-about/>
+    }
+    @case('vise-assessment') {
+        <app-visa-assessment/>
+    }
+}
 <app-footer/>
