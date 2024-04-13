@@ -12,3 +12,8 @@ li {
 .banner{
     height: 500px;
 }
+
+.slider{
+    height: 500px;
+    object-fit: contain;
+}
