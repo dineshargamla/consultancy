@@ -1,0 +1,171 @@
+#Footer .footer_action {
+    background-color: rgb(36, 39, 46);
+    height: 350px;
+
+}
+
+#Footer .footer_action .one {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 110%;
+    line-height: 180%;
+}
+
+#Footer,
+#Footer .widget_recent_entries ul li a {
+    color: #cccccc;
+    font-family: 'Roboto'
+}
+
+.one.column {
+    width: 98%;
+}
+
+#Footer .widgets_wrapper {
+    padding: 20px 0;
+}
+
+.one-fourth.column,
+.four.columns {
+    width: 23%;
+}
+
+a.email {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+i svg {
+    padding: 4px;
+    float: center;
+    border: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+
+}
+
+div.icon_container{
+margin: 20px;
+align-items: center;
+}
+a.icon_bar_small {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+#Footer .widgets_wrapper{
+padding-top: 20px ;
+background-color: rgb(40, 43, 50);
+height: 300px;
+
+}
+
+#Footer .widgets_wrapper .container{
+    padding-top: 20px ;
+    margin: 0;
+    
+    }
+#Footer .widgets_wrapper .column {
+    margin-bottom: 0;
+}
+.one-fourth.column, .four.columns {
+    width: 23%;
+    margin-left: 2px;
+}
+.column, .columns {
+    float: left;
+    margin: 0 1% 40px;
+}
+#Footer .widgets_wrapper .widget {
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.widget img{
+    padding-top: 15px;
+    margin-bottom: 0;
+    vertical-align: baseline;
+
+}
+ul.list_of_countries{
+    float: left;
+     width: 20%; 
+      list-style: square; 
+      line-height: 20px;
+      display: inline;
+      padding: 10px;
+}
+
+ul.list_of_work_visa_countries{
+    float: left;
+     width: 50%; 
+      list-style: square; 
+      line-height: 20px;
+      display: inline;
+      padding: 10px;
+}
+a.country_name{
+    margin: 0;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#Footer .footer_copy {
+    background-color: rgb(40, 43, 50);
+    border-top: 1px solid rgb(49, 52, 59);
+    height: 64px;
+}
+Footer .footer_copy .one {
+    margin-bottom: 24px;
+    padding-top: 24px;
+    min-height: 24px;
+}
+#back_to_top {
+    float: right;
+    margin: -9px 0 0;
+}
+#Footer .footer_copy .copyright {
+    float: left;
+}
+#Footer .footer_copy .social-menu {
+    float: right;
+    margin-right: 20px;
+}
+Footer .footer_copy .social-menu li {
+    display: inline-block;
+    margin-right: 6px;
+    padding-right: 6px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+a{
+    text-decoration: none;
+}
+
+/* 
+
+
+.column, .columns {
+    float: left;
+    margin: 0 1% 40px;
+}
+#Footer, #Footer .widget_recent_entries ul li a {
+    color: #cccccc;
+}
+clearfix:before, .clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+} */
