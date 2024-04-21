@@ -113,6 +113,8 @@ a.country_name{
     margin: 0;
     font-size: 11px;
     text-decoration: none;
+    color: aliceblue;
+
 }
 
 #Footer .footer_copy {
@@ -144,6 +146,8 @@ Footer .footer_copy .social-menu li {
 }
 a{
     text-decoration: none;
+    color: aliceblue;
+
 }
 
 /* 
