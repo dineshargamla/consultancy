@@ -1,0 +1,45 @@
+.study_visa_countries{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+.list_of_countries {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+}
+img.icon{
+    width: 10vh;
+    margin-right: 1rem;
+}
+
+.country_name{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.all_countries_container_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all_countries-flags_image{
+    width: 100vh;
+}
+.allCountries{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-weight: 600;
+
+}
+h4{
+    font-weight: bolder;
+    text-align: center;
+    padding: 2rem;
+}
