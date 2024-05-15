@@ -1,0 +1,101 @@
+.contact {
+    font-family: 'Roboto'
+}
+
+.about_image {
+    background-image: url('C:/Consultancy Project/consultancy-project/src/assets/images/LINES-ABOUT2A.jpg');
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.about_image img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.breadcrumbs {
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.icon svg{
+    height: 16px;
+
+}
+
+.breadcrumbs li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.heading {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.heading_text {
+    font-size: 45px;
+}
+
+
+
+.form-item {
+    padding: 10px;
+}
+
+.bold_text {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form-button {
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .form{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) { .form{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.contact_form {
+    display: flex;
+
+}
+}
