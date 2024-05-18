@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "pro": "ng build --configuration production --base-href 'https://dineshargamla.github.io'"
+    "pro": "ng build --configuration production --base-href 'https://dineshargamla.github.io/consultancy/' --configuration'"
   },
   "private": true,
   "dependencies": {
