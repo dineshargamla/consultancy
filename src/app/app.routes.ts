@@ -9,11 +9,11 @@ import { VisaAssessmentComponent } from './visa-assessment/visa-assessment.compo
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
-    {path:'', component: HomeComponent},
-    {path:'about', component: AboutComponent},
-    {path:'contact', component: ContactComponent},
+    {path:'consultancy', component: HomeComponent},
+    {path:'consultancy/about', component: AboutComponent},
+    {path:'consultancy/contact', component: ContactComponent},
     {path:'immigration', component: ImmigrationComponent},
-    {path:'visa', component: VisaComponent},
+    {path:'consultancy/visa', component: VisaComponent},
     {path:'study', component: StudyComponent},
     { path: 'vise-assessment', component: VisaAssessmentComponent },
     {path: '**', component: PageNotFoundComponent}

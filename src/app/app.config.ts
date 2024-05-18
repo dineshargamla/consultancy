@@ -3,7 +3,10 @@ import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { APP_BASE_HREF, HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideAnimationsAsync()]
+  providers: 
+  // [{provide:LocationStrategy, useClass: HashLocationStrategy}]
+  [provideRouter(routes), provideAnimationsAsync()]
 };
