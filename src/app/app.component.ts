@@ -36,28 +36,28 @@ export class AppComponent implements OnInit {
   constructor(public dialog:MatDialog) {
   }
   ngOnInit(): void {
-    const popupShown = sessionStorage.getItem('popupShown');
+    // const popupShown = sessionStorage.getItem('popupShown');
 
-    if (!popupShown) {
-      // Open dialog only if popup has not been shown before
-      setTimeout(() => {
-        this.openDialog();
-      }, 3000); 
+    // if (!popupShown) {
+    //   // Open dialog only if popup has not been shown before
+    //   setTimeout(() => {
+    //     this.openDialog();
+    //   }, 3000); 
 
       // Set flag in localStorage to indicate that popup has been shown
-      sessionStorage.setItem('popupShown', 'true');
-    }
+    //   sessionStorage.setItem('popupShown', 'true');
+    // }
     // Delay opening the dialog by 3 seconds
     // 3000 milliseconds = 3 seconds
   }
-  openDialog(): void {
-    const dialogRef = this.dialog.open(PopupDialogComponent, {
-      width: '350px', // Adjust width as needed
-      data: {} // Pass any data you need to the dialog component
-    });
+  // openDialog(): void {
+  //   const dialogRef = this.dialog.open(PopupDialogComponent, {
+  //     width: '350px', // Adjust width as needed
+  //     data: {} // Pass any data you need to the dialog component
+  //   });
 
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-    });
-  }
+  //   dialogRef.afterClosed().subscribe(result => {
+  //     console.log('The dialog was closed');
+  //   });
+  // }
 }
